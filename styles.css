@@ -1,26 +1,102 @@
+html {
+    font-size: 16px;
+}
 body {
     background-color: #e2ecf6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 * {
     box-sizing: border-box;
 }
+a {
+    color: #4d4d5c;;
+    text-decoration: none;
+}
+a:hover {
+    color: #25262f;
+}
 
 /* HEADER */
 
 header {
-    display: inline;
+    display: grid;
+    margin: 0 60px;
+    padding: 100px 0;
+}
+banner {
+    display: flex;
+}
+banner > div {
+    flex: 1;
+    padding: 20px 60px;
+}
+header h1 {
+    font-size: 3.5rem;;
+}
+.hello {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 200;
+}
+.job-title {
+    font-size: 1.4rem;
+    font-weight: lighter;
 }
 nav {
-    border: 1px solid red;
+    background-color: #e6f0fa;
+    padding: 5px 40px;
+    text-align: right;
 }
 nav ul {
     list-style: none;
+    display: inline;
+    text-align: center;
 }
 nav ul li {
     display: inline-block;
     padding: 10px 5px;
+}
+.download {
+    background-color: #80db66;
+    color: #e2ecf6;
+    padding: 7px 20px;
+}
+
+/* MAIN */
+
+main {
+    margin: 0 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about {
+    padding: 20px;
+}
+.about h2 {
+    font-size: 1.8rem;
+    text-transform:uppercase;
+}
+.sub-title {
+    font-size: 2.5rem;
+}
+.about-info {
+    display: inline;
+}
+.about-info ul {
+    list-style: none;
+}
+.about-info ul li {
+    display: inline-block;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0 60px;
 }
