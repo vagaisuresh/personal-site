@@ -8,17 +8,31 @@
     </head>
     <body>
         <header>
-            <banner>
-                <div>
-                    <p class="hello">Hello, I'm</p>
-                    <h1>Suresh Baskar</h1>
-                    <p class="job-title">A passinate <span>Web Developer!</span></p>
+            <div class="banner">
+                <div class="banner-text">
+                    <div>
+                        <p class="sub-title">Hello, I'm</p>
+                        <h1>Suresh Baskar</h1>
+                        <p class="job-title">A passinate <span>Web Developer!</span></p>
+                        <a href="#" class="download">About Me</a>
+                    </div>
+                    <div>
+                        <nav>
+                            <ul>
+                                <!-- <li><a href="/">Home</a></li> -->
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/portfolio">Portfolio</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="#" class="download">Download CV</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div>
-                    Image
+                <div class="banner-img">
+                    <img src="./assets/images/iphone.png" alt="Profile photo">
                 </div>
-            </banner>
-            <nav>
+            </div>
+            <!-- <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
@@ -26,55 +40,65 @@
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="#" class="download">Download CV</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
         <main>
             <section>
                 <div class="container">
-                    <div>Photo</div>
-                    <div class="about">
-                        <h2>About Me</h2>
-                        <p class="sub-title">I Develop System that Works</p>
+                    <div class="box">
+                        <img src="./assets/images/about-img.jpg" alt="Cup of couple" class="about-img">
+                    </div>
+                    <div class="box about">
+                        <span class="sub-title">About Me</span>
+                        <h2>I Develop System that Works</h2>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laboru doloremque laudantium, totaeaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.</p>
                         <p>Oremque laudantium, totaeaque ipsa quae</p>
-                        <div class="about-info">
-                            <ul>
-                                <li>
-                                    <p class="jostMedium-font-family mb-6">Phone</p>
-                                    <p class="jostMedium-font-family mb-6">Email</p>
-                                    <p class="jostMedium-font-family mb-6">Nationality</p>
-                                </li>
-                                <li>
-                                    <p class="mb-6">+123 456 7890</p>
-                                    <p class="mb-6">hello@thames.com</p>
-                                    <p class="mb-6">Bangladeshi</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="about-info">
-                            <ul>
-                                <li>
-                                    <p class="jostMedium-font-family mb-6">Name</p>
-                                    <p class="jostMedium-font-family mb-6">Age</p>
-                                    <p class="jostMedium-font-family mb-6">Occupation</p>
-                                </li>
-                                <li>
-                                    <p class="mb-6">James Smith</p>
-                                    <p class="mb-6">29 Years</p>
-                                    <p class="mb-6">System Engineer</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <div class="divider"></div>
+                        
+                            <div class="about-info">
+                                <ul>
+                                    <li>
+                                        <p>Phone</p>
+                                        <p>Email</p>
+                                        <p>Nationality</p>
+                                    </li>
+                                    <li>
+                                        <p>+91 9788 499 793</p>
+                                        <p>vagaisuresh@yahoo.co.in</p>
+                                        <p>Indian</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="about-info">
+                                <ul>
+                                    <li>
+                                        <p>Name</p>
+                                        <p>Age</p>
+                                        <p>Occupation</p>
+                                    </li>
+                                    <li>
+                                        <p>Suresh Baskar</p>
+                                        <p>39 Years</p>
+                                        <p>Full-stackk Developer</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        <div class="divider"></div>
                     </div>
                 </div>
             </section>
             <article>
-                <h2>Why Semantic Markup Matters</h2>
+                <div class="container">
+                    <h2>Why Semantic Markup Matters</h2>
                 <p>Using semantic elements improves accessibility and SEO.</p>
+                </div>
             </article>
             <section>
-                <h2>Latest Blog Posts</h2>
+                <div class="container">
+                    <h2>Latest Blog Posts</h2>
                 <!-- Blog post content here -->
+                </div>
             </section>
         </main>
         <aside>
@@ -85,7 +109,9 @@
             </ul>
         </aside>
         <footer>
-            <p>&copy; 2024 My Webpage. All rights reserved.</p>
+            <div class="container">
+                <p class="copyright">&copy; 2024 My Webpage. All rights reserved.</p>
+            </div>
         </footer>
     </body>
 </html>
