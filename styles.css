@@ -211,6 +211,16 @@ main {
     font-size: 5rem;
 }
 
+/* EXPERIENCE */
+
+.experience {
+    border: 1px solid red;
+}
+.experience ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 /* FOOTER */
 
 footer {
