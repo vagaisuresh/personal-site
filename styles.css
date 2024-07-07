@@ -214,7 +214,7 @@ main {
 /* EXPERIENCE */
 
 .experience {
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .experience ul {
     list-style: none;
