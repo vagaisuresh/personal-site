@@ -96,12 +96,25 @@ header h1 {
 }
 
 .banner-img {
+    border: 0px solid white;
+    display: flex;
     padding: 0 20px;
 }
-.banner-img img {
+.banner-img > img {
     padding: 106px 0 0 0;
     vertical-align: baseline;
-    width: 454px;
+    width: 451px;
+}
+.social {
+    list-style: none;
+    float: right;
+    padding-top: 150px;
+}
+.social li {
+    display: inline;
+}
+.social li img {
+    width: 50px;
 }
 
 nav {
