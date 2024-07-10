@@ -248,10 +248,10 @@ main {
 .skills span {
     background-color: #36373f;
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 1rem;
     margin: 5px;
-    padding: 5px 15px;
+    padding: 7px 15px;
 }
 
 /* FOOTER */
