@@ -164,6 +164,7 @@ main {
     
 }
 .box {
+    border: 0px solid blue;
     padding: 20px;
 }
 .divider {
@@ -232,6 +233,25 @@ main {
 .experience ul {
     list-style: none;
     padding-left: 0;
+}
+
+/* EDUCTION */
+
+.eduction {
+    background-color: #80db66;
+    padding: 30px;
+}
+.skills {
+    background-color: #4d4d5c;
+    padding: 30px;
+}
+.skills span {
+    background-color: #36373f;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 5px 15px;
 }
 
 /* FOOTER */
