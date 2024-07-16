@@ -171,6 +171,9 @@ main {
     border-bottom: 1px solid #888989;
     margin: 2px 0;
 }
+.center {
+    text-align: center;
+}
 
 .about-img {
     width: 100%;
@@ -252,6 +255,38 @@ main {
     font-size: 1rem;
     margin: 5px;
     padding: 7px 15px;
+}
+
+/* PORTFOLIO */
+
+.container-full {
+    border: 0px solid red;
+}
+.box-full {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 15px 40px;
+}
+.pf-card {
+    border: 0px solid blue;
+    background-color: #d1d1d1;
+    padding: 30px;
+}
+
+.pf-head {
+    font-size: 1.1rem;
+    margin: 0;
+}
+.pf-title {
+    color: #848485;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.pf-img {
+    background-color: #36373f;
+    height: 400px;
+    width: 100%;
 }
 
 /* FOOTER */
