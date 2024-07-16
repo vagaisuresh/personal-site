@@ -261,6 +261,7 @@ main {
 
 .container-full {
     border: 0px solid red;
+    width: auto;
 }
 .box-full {
     display: grid;
