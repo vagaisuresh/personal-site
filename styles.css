@@ -290,6 +290,29 @@ main {
     width: 100%;
 }
 
+/* CONTACT */
+
+.contact {
+    color: #d1d1d1;
+}
+.contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contact li {
+    padding: 5px 0;
+}
+.contact a {
+    color: #d1d1d1;
+}
+.contact a:hover {
+    color: #888989;
+}
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* FOOTER */
 
 footer {
