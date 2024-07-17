@@ -300,6 +300,7 @@ main {
     padding-left: 0;
 }
 .contact li {
+    font-weight: normal;
     padding: 7px 0;
 }
 .contact a {
