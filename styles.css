@@ -342,7 +342,10 @@ footer {
     margin: 0;
 }
 footer div {
-    margin-bottom: 0;
+    padding: 20px;
+}
+footer p {
+    margin: 0;
 }
 .copyright {
     color: #e6f0fa;
