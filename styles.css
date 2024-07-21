@@ -46,6 +46,37 @@ section {
     color: #e6f0fa;
 }
 
+.button {
+    background-color: #80db66;
+    color: #25262f;
+    padding: 7px 20px;
+}
+.button:hover {
+    background-color: #25262f;
+    border: 1px solid #80db66;
+    color: #80db66;
+}
+.button-wt {
+    background-color: #80db66;
+    color: #e2ecf6;
+    padding: 7px 20px;
+}
+.button-wt:hover {
+    background-color: #e2ecf6;
+    border: 1px solid #80db66;
+    color: #80db66;
+}
+.button-gy {
+    background-color: #80db66;
+    color: #36373f;
+    padding: 7px 20px;
+}
+.button-gy:hover {
+    background-color: #36373f;
+    border: 1px solid #80db66;
+    color: #80db66;
+}
+
 /* HEADER */
 
 header {
@@ -89,11 +120,7 @@ header h1 {
     font-weight: lighter;
     padding-bottom: 30px;
 }
-.button {
-    background-color: #80db66;
-    color: #ffffff;
-    padding: 7px 20px;
-}
+
 
 .banner-img {
     border: 0px solid white;
