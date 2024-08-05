@@ -1,354 +1,71 @@
 html {
     font-size: 16px;
 }
+
 body {
-    background-color: #e2ecf6;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
     padding: 0;
+    margin: 0;
 }
+
 * {
     box-sizing: border-box;
 }
-p {
-    font-size: 1.1rem;
-    font-weight: normal;
-    line-height: 3.5vh;
-}
-a {
-    color: #4d4d5c;;
-    text-decoration: none;
-}
-a:hover {
-    color: #25262f;
-}
 
-/* COMMON */
-
-section {
-    padding: 120px 60px;
-}
-.bg-gray {
-    background-color: #36373f;
-}
-.heading {
-    font-size: 2.8rem;
-    margin-top: 10px;
-}
-.big-font {
+h1 {
     font-size: 5rem;
 }
-.para {
-    font-size: 1rem;
+h2 {
+    font-size: 2.5rem;
+    color: #80db66;
 }
-.white-text {
-    color: #e6f0fa;
+.main-color {
+    color: #80db66;
 }
 
 .button {
     background-color: #80db66;
-    color: #25262f;
+    color: azure;
     padding: 7px 20px;
+    text-decoration: none;
 }
 .button:hover {
-    background-color: #25262f;
+    background-color: azure;
     border: 1px solid #80db66;
     color: #80db66;
 }
-.button-wt {
-    background-color: #80db66;
-    color: #e2ecf6;
-    padding: 7px 20px;
-}
-.button-wt:hover {
-    background-color: #e2ecf6;
-    border: 1px solid #80db66;
-    color: #80db66;
-}
-.button-gy {
-    background-color: #80db66;
-    color: #36373f;
-    padding: 7px 20px;
-}
-.button-gy:hover {
-    background-color: #36373f;
-    border: 1px solid #80db66;
-    color: #80db66;
-}
-
-/* HEADER */
 
 header {
-    border: 0px solid red;
-    background-color: #25262f;
-    display: grid;
-    height: 700px;
-}
-.banner {
-    display: flex;
-    margin: 0 60px;
-}
-.banner > div {
-    width: 50%;
-}
-
-.banner-text {
-    padding: 100px 50px 0 50px;
-}
-header h1 {
+    background-color: rgb(199, 255, 199);
     color: white;
-    font-size: 5rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 100px 0;
 }
-.sub-title {
-    color: #80db66;
+.title {
     font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    color: cornflowerblue;
 }
 .job-title {
-    color: whitesmoke;
-    font-size: 1.4rem;
-    font-weight: lighter;
-    padding-bottom: 30px;
+    font-size: 1.5rem;
 }
 
-
-.banner-img {
-    border: 0px solid white;
-    display: flex;
-    padding: 0 20px;
+section {
+    padding: 120px 0;
 }
-.banner-img > img {
-    padding: 106px 0 0 0;
-    vertical-align: baseline;
-    width: 451px;
+.hero {
+    background-color: azure;
 }
-.social {
-    list-style: none;
-    float: right;
-    padding-top: 150px;
-}
-.social li {
-    display: inline;
-}
-.social li img {
-    width: 50px;
+.hero img {
+    border-radius: 50%;
+    height: 180px;
 }
 
-nav {
-    border: 0px solid blue;
-    /* background-color: #e6f0fa; */
-    background-color: #36373f;
-    display: block;
-    /* padding: 5px 40px; */
-    /* text-align: right; */
-    margin-top: 100px;
-    padding: 5px;
+.project {
+    background-color: azure;
 }
-nav ul {
-    list-style: none;
-    display: inline;
-    padding-left: 0;
-    /* text-align: center; */
-}
-nav ul li {
-    display: inline-block;
-    padding: 10px 10px;
-}
-nav ul li:last-child {
-    float: right;
-}
-nav a {
-    color: #848485;
-}
-nav a:hover {
-    color: aliceblue;
-}
-
-
-/* MAIN */
-
-main {
-    border: 0px solid violet;
-    /* margin: 80px 60px; */
-}
-
-.container {
-    border: 0px solid blue;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    
-}
-.box {
-    border: 0px solid blue;
-    padding: 20px;
-}
-.divider {
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
-}
-.center {
-    text-align: center;
-}
-
-.about-img {
-    width: 100%;
-    max-width: 500px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.about {
-    border: 0px solid green;
-    /* padding: 20px; */
-}
-
-.about-info {
-    display: inline-block;
-    padding-left: 3px;
-}
-.about-info ul {
-    display: block;
-    list-style: none;
-    padding-left: 0;
-    margin: 5px 0;
-}
-.about-info ul li {
-    display: inline-block;
-}
-.about-info ul li p {
-    margin: 5px;
-}
-
-/* FUN */
-
-.fun-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-}
-.fun-box div {
-    border: 1px solid #4d4d5c;
-    border-radius: 10%;
-    width: 100%;
-    max-width: 270px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    padding: 20px;
-}
-.fun-box span {
-    display: block;
-    font-size: 5rem;
-}
-
-/* EXPERIENCE */
-
-.experience {
-    border: 0px solid red;
-}
-.experience ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-/* EDUCTION */
-
-.eduction {
-    background-color: #80db66;
-    padding: 30px;
-}
-.skills {
-    background-color: #4d4d5c;
-    padding: 30px;
-}
-.skills span {
-    background-color: #36373f;
-    display: inline-block;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin: 5px;
-    padding: 7px 15px;
-}
-
-/* PORTFOLIO */
-
-.container-full {
-    border: 0px solid red;
-    width: auto;
-}
-.box-full {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    padding: 15px 40px;
-}
-.pf-card {
-    border: 0px solid blue;
-    background-color: #d1d1d1;
-    padding: 30px;
-}
-
-.pf-head {
-    font-size: 1.1rem;
-    margin: 0;
-}
-.pf-title {
-    color: #848485;
-    font-size: 0.8rem;
-    margin-top: 5px;
-}
-.pf-img {
-    background-color: #36373f;
-    height: 400px;
-    width: 100%;
-}
-
-/* CONTACT */
-
-.contact {
-    color: #d1d1d1;
-}
-.contact ul {
-    list-style: none;
-    padding-left: 0;
-}
-.contact li {
-    font-weight: normal;
-    padding: 7px 0;
-}
-.contact a {
-    color: #d1d1d1;
-}
-.contact a:hover {
-    color: #888989;
-}
-.inline {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-/* FOOTER */
 
 footer {
-    background-color: #4d4d5c;
-    margin: 0;
-}
-footer div {
-    padding: 20px;
-}
-footer p {
-    margin: 0;
-}
-.copyright {
-    color: #e6f0fa;
-    font-size: 0.8rem;
-    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+    padding: 20px 0;
 }
