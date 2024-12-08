@@ -22,23 +22,26 @@ a:hover {
     color: #25262f;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 .green {
     color: #80db66;
 }
 
 
 header {
-    border: 0px solid red;
     background-color: #25262f;
+    background-image: url(../assets/images/bee-hive-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     height: 100%;
 }
 
 .container {
-    background-image: url(../assets/images/bee-hive-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
     border: 0px solid red;
-    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     padding: 50px;
 }
@@ -47,7 +50,7 @@ header {
 } */
 
 .banner {
-    border: 0px solid blue;
+    border: 1px solid blue;
     display: block;
     padding: 50px 100px;
     width: 100%;
@@ -92,6 +95,7 @@ nav {
     background-color: #36373f;
     display: block;
     margin-top: 50px;
+    width: 100%;
 }
 nav ul {
     list-style: none;
@@ -111,6 +115,26 @@ nav a:hover {
     color: white;
 }
 
+/* COMMON */
+
+.bg-gray {
+    background-color: #36373f;
+}
+
+.white-text {
+    color: #e6f0fa;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.divider {
+    border-bottom: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
+
 /* BUTTON */
 
 .button {
@@ -125,19 +149,219 @@ nav a:hover {
     color: #80db66;
 }
 
-@media (max-width: 450px) {
+.button-wt {
+    background-color: #80db66;
+    color: #e2ecf6;
+    padding: 10px 30px;
+}
+.button-wt:hover {
+    background-color: #e2ecf6;
+    border: 1px solid #80db66;
+    color: #80db66;
+}
+
+/* ABOUT */
+
+.box {
+    border: 0px solid rgb(228, 228, 228);
+    padding: 20px;
+    margin: 50px 90px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-info {
+    border: 0px solid rgb(52, 179, 14);
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+}
+.about-info div {
+    border: 0px solid rgb(52, 179, 14);
+    display: block;
+    line-height: 1.5;
+    padding-left: 0;
+    margin: 5px 0;
+    width: 100%;
+}
+.about-info span {
+    display: inline-block;
+    color: #616266;
+    font-weight: bold;
+    width: 20%;
+}
+
+/* FUN */
+
+.skill-box {
+    border: 1px solid #4d4d5c;
+    border-radius: 10%;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 0;
+}
+.skill-box span {
+    display: block;
+    font-size: 3rem;
+    text-transform: none;
+}
+.skills {
+    border: 0px solid red;
+}
+.skills span {
+    background-color: #3f4049;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 7px 15px;
+}
+
+.fun-box {
+    border: 1px solid red;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.fun-box div {
+    border: 1px solid #4d4d5c;
+    border-radius: 10%;
+    width: 100%;
+    max-width: 270px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+.fun-box span {
+    display: block;
+    font-size: 4rem;
+}
+
+/* PORTFOLIO */
+
+.portfolio-box {
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.pf-card {
+    border: 0px solid blue;
+    background-color: #e7e7e7;
+    padding: 30px;
+    margin-right: 25px;
+    width: 50%;
+}
+.pf-card:last-child {
+    margin-right: 0;
+}
+
+.pf-head {
+    font-size: 1rem;
+    margin: 0;
+}
+.pf-title {
+    color: #848485;
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+.pf-img {
+    background-color: #36373f;
+    width: 100%;
+}
+.pf-img img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.email a:hover {
+    color: #80db66;
+    padding-bottom: 2px;
+}
+.copyright-box {
+    background-color: #464650;
+    padding: 20px;
+}
+.copyright {
+    color: #e6f0fa;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .box {
+        margin: 50px 20px;
+    }
+    .profile-photo {
+        margin: 70px 10px;
+    }
+    .about-info span {
+        width: 50%;
+    }
+}
+
+@media (max-width: 820px) {
+    .box {
+        margin: 50px 10px;
+    }
+    .profile-photo {
+        margin: 100px 0;
+        width: 150px;
+    }
+    .about-info span {
+        width: 50%;
+    }
+    .portfolio-box {
+        flex-direction: column;
+    }
+    .pf-card {
+        margin-top: 25px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 280px) {
+    nav ul li {
+        border-bottom: 1px solid #616266;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
     .container {
         padding: 10px;
     }
-    .banner {
-        padding: 20px;
+    .box {
+        margin: 25px 2px;
     }
+    
     .banner-content {
         display: block;
         width: 100%;
     }
     header h1 {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .job-title {
         font-size: 1.2rem;
@@ -150,5 +374,14 @@ nav a:hover {
     .profile-photo {
         margin: 10px 0;
         width: 130px;
+    }
+
+    .heading {
+        font-size: 1.7rem;
+    }
+
+    .about-info span {
+        display: block;
+        width: 100%;
     }
 }
