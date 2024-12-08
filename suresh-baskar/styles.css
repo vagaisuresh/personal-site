@@ -34,7 +34,7 @@ p {
 
 header {
     background-color: #25262f;
-    background-image: url(../assets/images/bee-hive-bg.png);
+    background-image: rgba(0, 0, 0, 0.9) url(../assets/images/bee-hive-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 100%;
