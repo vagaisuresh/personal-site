@@ -36,7 +36,7 @@ header {
     background-color: #25262f;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-        url(../assets/images/bee-hive-bg.png);
+        url(./images/bee-hive-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 100%;
